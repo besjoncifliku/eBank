@@ -6,7 +6,8 @@ export const FooterContainer = styled.div `
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 300px;
+    height: 375px;
+    margin-top: 20px;
     position: relative;
     z-index: 1;
     color: #fff;
@@ -15,7 +16,7 @@ export const FooterContainer = styled.div `
 export const FooterWrapper = styled.div `
     display: flex;
     z-index: 1;
-    height: 450px;
+    height: 350px;
     width: 70%;
     max-width: 1100px;
     margin-right: auto;
@@ -23,7 +24,6 @@ export const FooterWrapper = styled.div `
     padding: 0 24px;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: -30px;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;

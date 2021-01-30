@@ -51,6 +51,7 @@ span {
 .icon-3d:hover {
   -webkit-animation: icon3d 200ms infinite;
   animation: icon3d 200ms infinite;
+  cursor: pointer;
 }
 
 @keyframes icon3d {
